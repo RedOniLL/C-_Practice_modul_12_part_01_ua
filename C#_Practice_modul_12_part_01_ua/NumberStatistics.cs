@@ -12,7 +12,7 @@ namespace C__Practice_modul_12_part_01_ua
         public static void GenerateNumbersAndSaveToFile()
         {
             Random random = new Random();
-            int[] numbers = new int[10000];
+            int[] numbers = new int[10000]; 
 
             for (int i = 0; i < numbers.Length; i++)
             {

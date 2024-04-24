@@ -32,8 +32,10 @@ namespace C__Practice_modul_12_part_01_ua
             Console.WriteLine("Array successfully saved to file.");
         }
 
-        public static void LoadArrayFromFile(string filePath)
+        public static void LoadArrayFromFile()
         {
+            Console.WriteLine("Input filepath");
+            string filePath = Console.ReadLine();
             List<int> numbersList = new List<int>();
 
             using (var streamReader = new StreamReader(filePath))
